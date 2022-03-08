@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="daGame" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/daGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/daGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/SDL2-2.0.14/i686-w64-mingw32/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer" />
+			<Add directory="C:/SDL2-2.0.14/i686-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="DAONSS/blastrisa.mp3" />
+		<Unit filename="DAONSS/onClick.wav" />
+		<Unit filename="DAONSS/unClick.wav" />
+		<Unit filename="UIengine.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="UIengine.h" />
+		<Unit filename="empty.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="empty.h" />
+		<Unit filename="fonts/Arrows.ttf" />
+		<Unit filename="fonts/theboldfont.ttf" />
+		<Unit filename="globals.h" />
+		<Unit filename="howto.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="howto.h" />
+		<Unit filename="images/arrow.png" />
+		<Unit filename="images/background.jpg" />
+		<Unit filename="images/buttons/idle.png" />
+		<Unit filename="images/buttons/mouseClick.png" />
+		<Unit filename="images/buttons/mouseOver.png" />
+		<Unit filename="images/formulas/coeffbinom.JPG" />
+		<Unit filename="levelAppsAversB.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="levelAppsAversB.h" />
+		<Unit filename="levelBezout.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="levelBezout.h" />
+		<Unit filename="levelBij1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="levelBij1.h" />
+		<Unit filename="levelBinomeNewton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="levelBinomeNewton.h" />
+		<Unit filename="levelCoeffBinom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="levelCoeffBinom.h" />
+		<Unit filename="levelFermat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="levelFermat.h" />
+		<Unit filename="levelIndicEul.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="levelIndicEul.h" />
+		<Unit filename="levelLogi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="levelLogi.h" />
+		<Unit filename="levelNbBijsurA.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="levelNbBijsurA.h" />
+		<Unit filename="levelRestesChinois.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="levelRestesChinois.h" />
+		<Unit filename="levelSousensE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="levelSousensE.h" />
+		<Unit filename="levelselect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="levelselect.h" />
+		<Unit filename="leveltemplate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="leveltemplate.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mainmenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mainmenu.h" />
+		<Unit filename="submenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="submenu.h" />
+		<Unit filename="timermenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="timermenu.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,786 @@
+# depslib dependency file v1.0
+1623751320 source:c:\sdl2-2.0.14\dagame\test.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\close_code.h
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608576391 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561873968 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547325881 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541001592 c:\sdl2-2.0.14\i686-w64-mingw32\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1623862445 source:c:\sdl2-2.0.14\dagame\engine.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+
+1623869461 source:c:\sdl2-2.0.14\dagame\engine.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"engine.h"
+	"globals.h"
+
+1626894549 source:c:\sdl2-2.0.14\dagame\main.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<sys\timeb.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"mainmenu.h"
+
+1623869462 c:\sdl2-2.0.14\dagame\engine.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"globals.h"
+
+1626045269 c:\sdl2-2.0.14\dagame\globals.h
+
+1623868499 c:\sdl2-2.0.14\dagame\submenu.c
+	"engine.h"
+	"globals.h"
+
+1625783333 c:\sdl2-2.0.14\dagame\submenu.h
+	<SDL.h>
+
+1625783487 source:c:\sdl2-2.0.14\dagame\submenu.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"mainmenu.h"
+	"submenu.h"
+
+1625783327 c:\sdl2-2.0.14\dagame\mainmenu.h
+	<SDL.h>
+
+1626175425 source:c:\sdl2-2.0.14\dagame\mainmenu.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"mainmenu.h"
+	"howto.h"
+	"timermenu.h"
+	"levelselect.h"
+
+1626046099 c:\sdl2-2.0.14\dagame\uiengine.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"globals.h"
+
+1626178552 source:c:\sdl2-2.0.14\dagame\uiengine.c
+	<math.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<sys\timeb.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+
+1625783339 c:\sdl2-2.0.14\dagame\timermenu.h
+	<SDL.h>
+
+1626044435 source:c:\sdl2-2.0.14\dagame\timermenu.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"mainmenu.h"
+
+1626452437 source:c:\sdl2-2.0.14\dagame\leveltemplate.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"levelselect.h"
+	"leveltemplate.h"
+
+1625783321 c:\sdl2-2.0.14\dagame\leveltemplate.h
+	<SDL.h>
+
+1626171720 source:c:\sdl2-2.0.14\dagame\empty.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"empty.h"
+	"levelselect.h"
+
+1626894527 source:c:\sdl2-2.0.14\dagame\levelselect.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"mainmenu.h"
+	"levelselect.h"
+	"levelAppsAversB.h"
+	"levelBezout.h"
+	"levelBij1.h"
+	"levelBinomeNewton.h"
+	"levelCoeffBinom.h"
+	"levelFermat.h"
+	"levelIndicEul.h"
+	"levelLogi.h"
+	"levelNbBijsurA.h"
+	"levelRestesChinois.h"
+	"levelSousensE.h"
+	"leveltemplate.h"
+	"empty.h"
+
+1626171709 c:\sdl2-2.0.14\dagame\levelselect.h
+	<SDL.h>
+
+1625783292 c:\sdl2-2.0.14\dagame\empty.h
+	<SDL.h>
+
+1626026017 source:c:\sdl2-2.0.14\dagame\howto.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"howto.h"
+	"mainmenu.h"
+
+1625783303 c:\sdl2-2.0.14\dagame\howto.h
+	<SDL.h>
+
+1626171728 source:c:\sdl2-2.0.14\dagame\levelbij1.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"levelBij1.h"
+	"levelselect.h"
+
+1626025345 c:\sdl2-2.0.14\dagame\levelbij1.h
+	<SDL.h>
+
+1626693978 source:c:\sdl2-2.0.14\dagame\levelcoeffbinom.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"levelselect.h"
+	"levelCoeffBinom.h"
+
+1626177771 c:\sdl2-2.0.14\dagame\levelcoeffbinom.h
+	<SDL.h>
+
+1626864540 source:c:\sdl2-2.0.14\dagame\levelappsaversb.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"levelselect.h"
+	"levelAppsAversB.h"
+
+1626351368 c:\sdl2-2.0.14\dagame\levelappsaversb.h
+	<SDL.h>
+
+1626866925 source:c:\sdl2-2.0.14\dagame\levelbinomenewton.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"levelselect.h"
+	"levelBinomeNewton.h"
+
+1626351354 c:\sdl2-2.0.14\dagame\levelbinomenewton.h
+	<SDL.h>
+
+1626887583 source:c:\sdl2-2.0.14\dagame\levelnbbijsura.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"levelselect.h"
+	"levelNbBijsurA.h"
+
+1626351336 c:\sdl2-2.0.14\dagame\levelnbbijsura.h
+	<SDL.h>
+
+1626351321 c:\sdl2-2.0.14\dagame\levelsousense.h
+	<SDL.h>
+
+1626893311 source:c:\sdl2-2.0.14\dagame\levelsousense.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"levelselect.h"
+	"levelSousensE.h"
+
+1626894631 source:c:\sdl2-2.0.14\dagame\levelbezout.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"levelselect.h"
+	"levelBezout.h"
+
+1626452720 c:\sdl2-2.0.14\dagame\levelbezout.h
+	<SDL.h>
+
+1626894644 source:c:\sdl2-2.0.14\dagame\levelindiceul.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"levelselect.h"
+	"levelIndicEul.h"
+
+1626452735 c:\sdl2-2.0.14\dagame\levelindiceul.h
+	<SDL.h>
+
+1626894648 source:c:\sdl2-2.0.14\dagame\levellogi.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"levelselect.h"
+	"levelLogi.h"
+
+1626452694 c:\sdl2-2.0.14\dagame\levellogi.h
+	<SDL.h>
+
+1626894652 source:c:\sdl2-2.0.14\dagame\levelresteschinois.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"levelselect.h"
+	"levelRestesChinois.h"
+
+1626452750 c:\sdl2-2.0.14\dagame\levelresteschinois.h
+	<SDL.h>
+
+1626894638 source:c:\sdl2-2.0.14\dagame\levelfermat.c
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"UIengine.h"
+	"globals.h"
+	"levelselect.h"
+	"levelFermat.h"
+
+1626452707 c:\sdl2-2.0.14\dagame\levelfermat.h
+	<SDL.h>
+
